@@ -1,0 +1,300 @@
+  102  add .
+  103  git add .
+  104  git commit -m "add:tmp"
+  105  rm tmp/index_bk.php
+  106  ls
+  107  cs tmp
+  108  cd tmp
+  109  ls
+  110  cd ../
+  111  cd ../
+  112  touch README.md
+  113  vi README.md 
+  114  git add .
+  115  git status
+  116  git log
+  117  git status
+  118  git add .
+  119  git add index_bk.php
+  120  git commit -m "add:practice_1"
+  121  git status
+  122  git add .
+  123  git add -A
+  124  git status
+  125  git commit -m "delete:index."
+  126  ls
+  127  mkdir -p linux_practice2/documents
+  128  ls
+  129  cd linux_practice2
+  130  ls
+  131  cd documents/
+  132  touch gizumo{01..50}.md
+  133  ls
+  134  add .
+  135  git add l
+  136  git add .
+  137  git commit -m "add:documents"
+  138  cd ../
+  139  mkdir trash
+  140  cd trash/
+  141  cd ../
+  142  ls
+  143  mv documents/gizumo{20..40}.md trash
+  144  ls
+  145  cd trash
+  146  ls
+  147  git add .
+  148  git commit -m "move:gizumo20~40"
+  149  cd ../
+  150  touch .gitignore
+  151  vi .gitignore
+  152  history 300
+  153  history 300 -a exec_command.log
+  154  ls
+  155  history 300 -a [exec_command.log]
+  156  ls
+  157  history 300 >> exec_command.log
+  158  ls
+  159  cat exec_command.log
+  160  git add .
+  161  git status
+  162  git add -A
+  163  git status
+  164  git commit -m "practice_2"
+  165  cd trash
+  166  ls
+  167  cd ../
+  168  git log
+  169  git branch
+  170  git push origin master
+  171  git push origin master
+  172  git push origin master
+  173  git branch
+  174  git remote -v
+  175  git push -u origin main
+  176  git remote add origin https://github.com/txt-kenji/server_lesson.git
+  177  git remote -v
+  178  git push origin master
+  179  git push origin master
+  180  git push origin master
+  181  git push origin master
+  182  git push origin master
+  183  git remote -v
+  184  git push origin master
+  185   git credential fill
+  186  git config remote.origin.url
+  187  git push origin master
+  188  git remote add origin git@github.com:txt-kenji/server_lesson.git
+  189  git remote rm origin
+  190  git remote add origin git@github.com:txt-kenji/server_lesson.git
+  191  git remote -v
+  192  git push -u origin main
+  193  git remote rm origin
+  194  git remote set-url origin https://github.com/txt-kenji/server_lesson.git
+  195  git remote add
+  196  git remote add origin https://github.com/txt-kenji/server_lesson.git
+  197  git push -u origin main
+  198  git push -u origin master
+  199  git config --global user.name "txt-kenji"
+  200  git config --global user.email "kenjibasketball0520@gmail.com"
+  201  git push -u origin master
+  202  git push -u origin master
+  203  git push -u origin master
+  204  git push -u origin master
+  205  exit
+  206  ls
+  207  cd /root
+  208  cd server_lesson/
+  209  ls
+  210  cd linux_practice2
+  211  ls
+  212  cd ../
+  213  cd linux_practice1
+  214  ls
+  215  cd ../
+  216  ls -a
+  217  cd linux_practice2
+  218  ls
+  219  ls -a
+  220  cd .gitignore 
+  221  vi .gitignore
+  222  git add .
+  223  git commit -m "test:gitignore"
+  224  git push origin master
+  225  git push -u origin master
+  226  ls
+  227  cd trash
+  228  ls
+  229  mv gizumo20.md exec_command.log
+  230  git status
+  231  docker stop centos7 
+  232  exit
+  233  ls
+  234  cd /root
+  235  ls
+  236  cd server_lesson/linux_practice1
+  237  vi .gitignore
+  238  ls
+  239  ls -a
+  240  cd ../
+  241  cd linux_practice2
+  242  vi .gitignore
+  243  exit
+  244  cd /root
+  245  cd server_lesson/linux_practice2
+  246  ls -a
+  247  vi .gitignore 
+  248  git status
+  249  vi .gitignore 
+  250  git log
+  251  git revert <3b2ac1e7c78a5436dbe6fc6bc9e54355574216ae>
+  252  git revert 3b2ac1e7c78a5436dbe6fc6bc9e54355574216ae
+  253  git status
+  254  git revert 33a12dde165d81d96ac79e128e6e3203ce570990
+  255  vi .gitignore
+  256  cd trash
+  257  ls
+  258  cd ../
+  259  ls
+  260  cd trash
+  261  ls
+  262  git status
+  263  cd ../
+  264  ls
+  265  cd documents
+  266  ls
+  267  touch gizumo{20..29}
+  268  lks
+  269  ls
+  270  rm gizumo{20..29}
+  271  cd ../
+  272  ls
+  273  vi .gitignore 
+  274  cd documents
+  275  touch gizumo{20..29}.md
+  276  ls
+  277  rm gizumo{20..29}
+  278  ls
+  279  git status
+  280  git add .
+  281  git status
+  282  git status --ignored
+  283  git status --ignored
+  284  git status --ignored
+  285  git status --ignored
+  286  exit
+  287  git status
+  288  git brancg
+  289  git branch
+  290  cd /root
+  291  git branch
+  292  cd server_lesson/
+  293  git branch
+  294  vi .gitignore
+  295  git status
+  296  vi .gitignore 
+  297  vi .gitignore 
+  298  touch gizumoi.md
+  299  ls
+  300  git status
+  301  cd ../
+  302  cd /rott
+  303  cd /root
+  304  ls
+  305  cd server_lesson/
+  306  ls
+  307  rn -r linux_practice1
+  308  rm -r linux_practice1
+  309  rm -r linux_practice2
+  310  y
+  311  git branch
+  312  ls
+  313  git status
+  314  git add .
+  315  git status
+  316  git add -A
+  317  git status
+  318  git commit -m 'reset'
+  319  ls
+  320  mkdir linux_practice1
+  321  cd linux_practice1/
+  322  mkdir public
+  323  cd public
+  324  touch index.php
+  325  cp index.php index_bk.php
+  326  ls
+  327  cd ../
+  328  cp -r public tmp
+  329  ls
+  330  cd tmp
+  331  ls
+  332  cd //
+  333  cd ../
+  334  cd /root
+  335  cd server_lesson
+  336  cd linux_practice1/
+  337  cd tmp
+  338  ls
+  339  ls
+  340  rm index_bk.php 
+  341  ls
+  342  cd ../
+  343  cd ../
+  344  ls
+  345  vi README.md 
+  346  git add .
+  347  git status
+  348  git commit -m 'lesson_1'
+  349  git push origin master
+  350  git mkdir -p linux_practice2/documents
+  351  mkdir -p linux_practice2/documents
+  352  cd linux_practice2/documents
+  353  touch gizumo{01..50}.md
+  354  ls
+  355  cd ../
+  356  mkdir trash
+  357  mv documents/gizumo{20..40} trash
+  358  cd documents/
+  359  ls
+  360  mv gizumo{20..40} trash
+  361  mv gizumo{20..40} linux_practice2/trash
+  362  ls
+  363  cd ../
+  364  ls
+  365  mv documents/gizumo{20..40}.md trash
+  366  ls
+  367  cd trash
+  368  ls
+  369  cd ../
+  370  touch .gitignore
+  371  vi .gitignore
+  372  git status
+  373  git add
+  374  git add .
+  375  git status
+  376  vi .gitignore 
+  377  git reset HEAD
+  378  git status
+  379  git add .
+  380  git status
+  381  git reset HEAD
+  382  vi .gitignore 
+  383  git add .
+  384  git status
+  385  git reset HEAD
+  386  vi .gitignore 
+  387  git add .
+  388  git status
+  389  git reset HEAD
+  390  vi .gitignore 
+  391  git add .
+  392  git status
+  393  git reset HEAD
+  394  vi .gitignore 
+  395  git add .
+  396  git status
+  397  git reset HEAD
+  398  vi .gitignore 
+  399  git add .
+  400  git status
+  401  history 300 >> exec_command.log
